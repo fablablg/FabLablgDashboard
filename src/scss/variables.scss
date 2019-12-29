@@ -1,0 +1,21 @@
+$activ-color: #3AFF00;
+$body-color: #000000;
+$default-color: #FFF;
+$content-background: rgba(27, 27, 27, 0.8);
+
+
+
+  @keyframes text-shaddow {
+    0%   {text-shadow: 1px 1px 20px rgba(58, 255, 0, 0)}
+    25%  {text-shadow: 1px 1px 20px rgba(58, 255, 0, 0.7)}
+    50%  {text-shadow: 1px 1px 20px rgba(58, 255, 0, 0.4)}
+    75%  {text-shadow: 1px 1px 20px rgba(58, 255, 0, 0.65)}
+    100% {text-shadow: 1px 1px 20px rgba(58, 255, 0, 0)}
+  }
+  @keyframes overlay_blow{
+    0%   {width:0%;  opacity: 0;}
+    5%   {opacity: 1;}
+    95%   {opacity: 1;}
+    99% {width: 100%;}
+    100% {opacity: 0;}
+  }
